@@ -46,6 +46,7 @@
     animation: float 8s ease-in-out infinite;
   }
 
+  /* Los keyframes sirven para las animaciones. Este hace referencia a la declaración en la parte superiorƒ */
   @keyframes float {
     0% {
       transform: translateY(0px);
