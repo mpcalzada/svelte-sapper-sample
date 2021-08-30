@@ -1,3 +1,7 @@
+<script>
+    import analyticsTracking from "../utils/analytics";
+</script>
+
 <svelte:head />
 
 <header class="Header">
@@ -16,6 +20,7 @@
                             ><img
                                 src="images/github-icon.png"
                                 alt="github-logo"
+                                on:click={analyticsTracking('github')}
                             /></a
                         >
                     </li>
@@ -24,6 +29,7 @@
                             ><img
                                 src="images/instagram-icon.png"
                                 alt="instagram-logo"
+                                on:click={analyticsTracking('instagram')}
                             /></a
                         >
                     </li>
@@ -32,6 +38,7 @@
                             ><img
                                 src="images/linkedin-icon.png"
                                 alt="linkedin-logo"
+                                on:click={analyticsTracking('linkedin')}
                             /></a
                         >
                     </li>
